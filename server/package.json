@@ -1,0 +1,18 @@
+{
+  "name": "atom-picker-server",
+  "version": "1.0.0",
+  "bin": "app.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.3",
+    "yargs": "^17.7.2"
+  },
+  "pkg": {
+    "assets": "html/**/*",
+    "targets": [
+      "node18-linux-x64"
+    ]
+  }
+}
